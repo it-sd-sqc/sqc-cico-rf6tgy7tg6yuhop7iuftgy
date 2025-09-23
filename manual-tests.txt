@@ -62,3 +62,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 * Should display "Developer" for the user name.
 
 
+# Module 4: ticket 401 only allow numeric input for card number
+
+## Test steps
+1. Build and run CiCo
+2. type abcd into the field
+4. type 1234 into the field
+3. type ;',. into the field
+
+## Expected results
+* Only 1234 should be shown in the field at the end, and other characters should not appear at all
