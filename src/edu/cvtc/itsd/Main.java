@@ -54,7 +54,7 @@ public class Main {
         throws BadLocationException
     {
       if (fb.getDocument() != null) {
-        super.replace(fb, offset, lengthToDelete, stringToAdd, attr);
+        super.replace(fb, offset, stringToAdd.matches("[0-9]") ? lengthToDelete : lengthToDelete + 1, stringToAdd, attr);
       }
       else {
         Toolkit.getDefaultToolkit().beep();
