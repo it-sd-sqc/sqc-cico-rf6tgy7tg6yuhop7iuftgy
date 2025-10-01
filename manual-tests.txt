@@ -62,3 +62,11 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 * Should display "Developer" for the user name.
 
 
+## Test steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field and click Update.
+3. Click return button.
+
+## Expected results
+* Should show return button after step 2.
+* Should immediately return to the number input screen after step 3.
