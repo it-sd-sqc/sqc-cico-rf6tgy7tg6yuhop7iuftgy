@@ -70,3 +70,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should show return button after step 2.
 * Should immediately return to the number input screen after step 3.
+
+
+# Module 6: auto enter card number
+
+## Test steps
+1. Build and run CiCo
+2. Enter 00000000 into the field and Wait
+
+## Expected results
+* should automatically submit the number and move to the next screen
